@@ -7,8 +7,9 @@ body {
 .firstSlide,
 .secondSlide,
 .thirdSlide,
-.fourthSlide {
-    padding: 0px 200px;
+.fourthSlide,
+.footer {
+    padding: 0px 300px;
     padding-bottom: 60px;
 }
 
@@ -44,6 +45,7 @@ a {
 
 .firstSlideContent {
     display: flex;
+    justify-content: space-between;
 }
 
 .firstSplit {
@@ -95,10 +97,9 @@ a {
 .imageBox1 {
     display: flex;
     background-color: rgba(229, 231, 235, 12);
-    width: 375px;
-    height: 175px;
+    width: 500px;
+    height: 250px;
     flex-direction: column;
-
 }
 
 .secondSlide {
