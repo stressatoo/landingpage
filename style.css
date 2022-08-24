@@ -9,6 +9,7 @@ body {
 .thirdSlide,
 .fourthSlide {
     padding: 0px 200px;
+    padding-bottom: 60px;
 }
 
 .firstSlide {
@@ -48,6 +49,7 @@ a {
 .firstSplit {
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
 .links,
