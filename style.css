@@ -10,8 +10,7 @@ body {
 .thirdSlide,
 .fourthSlide,
 .footer {
-    padding: 0px 400px;
-    padding-bottom: 60px;
+    padding-bottom: 60px !important;
 }
 
 
@@ -19,6 +18,7 @@ body {
 
 .firstSlide {
     background-color: #1F2937;
+    padding: 0px 200px;
 }
 
 .header {
@@ -48,12 +48,14 @@ a {
 .firstSlideContent {
     display: flex;
     justify-content: space-between;
+    gap: 150px;
 }
 
 .firstSplit {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    min-width: 300px;
 }
 
 .links,
@@ -93,8 +95,34 @@ a {
     justify-content: center;
     
     font-size: 1.05em;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
+.signUpButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.signUpButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.signUpButton:hover span {
+    padding-right: 25px;
+}
+
+.signUpButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 
 .imageBox1 {
     display: flex;
@@ -102,6 +130,7 @@ a {
     width: 500px;
     height: 250px;
     flex-direction: column;
+    min-width: 200px;
 }
 
 
@@ -165,11 +194,15 @@ a {
     color: #1F2937;
     font-size: 36px;
     max-width: 780px;
+    min-width: 780px;
     
 }
 
 .author {
     align-self: flex-end;
+    font-size: 22px;
+    padding-right: 200px;
+    font-weight: bolder;
 }
 
 
