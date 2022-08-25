@@ -93,7 +93,6 @@ a {
     justify-content: center;
     
     font-size: 1.05em;
-    transition: all 0.5s;
     cursor: pointer;
 }
 
@@ -114,7 +113,7 @@ a {
 }
 
 .signUpButton:hover span {
-    padding-right: 25px;
+    padding-right: 20px;
 }
 
 .signUpButton:hover span:after {
@@ -183,7 +182,10 @@ a {
     justify-content: center;
     align-items: center;
 
-    padding-top: 100px;
+    padding-top: 100px!important;
+    padding: 0 555px;
+    
+
 }
 
 .quote {
@@ -191,17 +193,15 @@ a {
     font-weight: 280;
     color: #1F2937;
     font-size: 36px;
-    max-width: 780px;
-    min-width: 780px;
-    
+    min-width: 800px;
+
 }
 
 .author {
     align-self: flex-end;
     font-size: 22px;
-    padding-right: 200px;
     font-weight: bolder;
-    margin-right: 250px;
+    min-width: 220px;
 }
 
 
@@ -212,29 +212,92 @@ a {
     align-items: center;
     justify-content: center;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.containerButton {
-    color: white;
+.buttonContainer {
+    color: #E5E7EB;
     background: #3882F6;
+
+    max-width: 2000px;
+    border: 0;
+    border-radius: 10px;
+
+    padding: 15px;
+    width: 1000px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 1.05em;
+}
+
+.linesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstLine {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rButtonContainer {
+    justify-self: flex-end;
+    width: 150px;
+}
+
+.rightButton {
+    background: #3882F6;
+    border: 2px solid #E5E7EB;
+
+    display: flex;
+
+    border-radius: 10px;
 
     font-weight: bold;
 
     max-width: 120px;
-    border: 0;
     border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #E5E7EB;
 
     padding: 15px;
     width: 215px;
     height: 35px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    font-size: 1.05em;
-    transition: all 0.5s;
+    font-size: 1em;
     cursor: pointer;
+}
+
+.rightButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.rightButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.rightButton:hover span {
+    padding-right: 20px;
+}
+
+.rightButton:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 
@@ -247,12 +310,18 @@ a {
     justify-content: center;
 
     padding: 20px 0;
+
 }
 
 .footerText {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
+}
+
+.fa-github {
+    color: white;
+    padding-left: 10px;
 }
 
 /* start: 15 ago, 20:06 */
