@@ -77,21 +77,16 @@ a {
 .signUpButton {
     color: white;
     background: #3882F6;
-
     font-weight: bold;
-
     max-width: 120px;
     border: 0;
     border-radius: 10px;
-
     padding: 15px;
     width: 215px;
     height: 35px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    
     font-size: 1.05em;
     cursor: pointer;
 }
@@ -178,14 +173,10 @@ a {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     padding-top: 100px!important;
     padding: 0 555px;
-    
-
 }
 
 .quote {
@@ -218,19 +209,15 @@ a {
 .buttonContainer {
     color: #E5E7EB;
     background: #3882F6;
-
     max-width: 2000px;
     border: 0;
     border-radius: 10px;
-
     padding: 15px;
     width: 1000px;
     height: 100px;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
-
     font-size: 1.05em;
 }
 
@@ -252,25 +239,17 @@ a {
 .rightButton {
     background: #3882F6;
     border: 2px solid #E5E7EB;
-
     display: flex;
-
     border-radius: 10px;
-
     font-weight: bold;
-
     max-width: 120px;
     border-radius: 10px;
-
     align-items: center;
     justify-content: center;
-
     color: #E5E7EB;
-
     padding: 15px;
     width: 215px;
     height: 35px;
-
     font-size: 1em;
     cursor: pointer;
 }
@@ -308,7 +287,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 20px 0;
 
 }
@@ -323,11 +301,3 @@ a {
     color: white;
     padding-left: 10px;
 }
-
-/* start: 15 ago, 20:06 */
-/* to do:
- * 1.
- * 2. 
- * 3.
-*/
-/* end:                 */
