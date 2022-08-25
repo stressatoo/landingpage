@@ -7,10 +7,8 @@ body {
 
 .firstSlide,
 .secondSlide,
-.thirdSlide,
-.fourthSlide,
-.footer {
-    padding-bottom: 60px !important;
+.thirdSlide {
+    padding-bottom: 100px !important;
 }
 
 
@@ -137,7 +135,7 @@ a {
 /* SECOND SLIDE */
 
 .secondSlide {
-    padding-top: 32px;
+    padding-top: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -185,7 +183,7 @@ a {
     justify-content: center;
     align-items: center;
 
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .quote {
@@ -210,7 +208,33 @@ a {
 /* FOURTH SLIDE */ 
 
 .fourthSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
 
+.containerButton {
+    color: white;
+    background: #3882F6;
+
+    font-weight: bold;
+
+    max-width: 120px;
+    border: 0;
+    border-radius: 10px;
+
+    padding: 15px;
+    width: 215px;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 1.05em;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 
@@ -218,6 +242,17 @@ a {
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 0;
+}
+
+.footerText {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
 }
 
 /* start: 15 ago, 20:06 */
