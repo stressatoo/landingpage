@@ -43,7 +43,7 @@ body {
     justify-content: right;
     align-items: center;
     flex: 1;
-    gap: 16px;
+    gap: 24px;
 }
 
 a {
@@ -168,11 +168,36 @@ a {
     gap: 8px;
 }
 
-.pic {
-    border: 3px solid #9781DD;
+.pic-classic,
+.pic-orange,
+.pic-cherry,
+.pic-blue {
     width: 150px;
     height: 150px;
     border-radius: 25px;
+}
+
+.text {
+    margin-top: 6px;
+    font-size: 1.05em;
+    font-weight: 400;
+    color: #1F2937;
+}
+
+.pic-classic {
+    border: 3px solid #EB9600;
+}
+
+.pic-orange {
+    border: 3px solid #D4601A;
+}
+
+.pic-cherry {
+    border: 3px solid #F50E00;
+}
+
+.pic-blue {
+    border: 3px solid #0081A3;
 }
 
 .uranium {
@@ -298,11 +323,17 @@ a {
     right: 0;
 }
 
+.free {
+    font-weight: 1000;
+    text-decoration: underline;
+    text-decoration-color: #E5E7EB;
+}
+
 
 /* FOOTER */
 
 .footer {
-    background-color: rgb(117, 97, 180);
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: center;
