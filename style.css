@@ -175,6 +175,11 @@ a {
     border-radius: 25px;
 }
 
+.uranium {
+    width: 150px;
+    height: auto;
+}
+
 .text {
     max-width: 150px;
     text-align: center;
@@ -297,7 +302,7 @@ a {
 /* FOOTER */
 
 .footer {
-    background-color: #1F2937;
+    background-color: rgb(117, 97, 180);
     display: flex;
     align-items: center;
     justify-content: center;
