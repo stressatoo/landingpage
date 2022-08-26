@@ -25,15 +25,23 @@ body {
     margin-bottom: 75px;
 }
 
+/* 
 .headerLogo {
     font-weight: bolder;
     font-size: 24px;
     color: #F9FAF8;
+} 
+*/
+
+.headerLogo {
+    height: 50px;
+    width: auto;
 }
 
 .links {
     display: flex;
     justify-content: right;
+    align-items: center;
     flex: 1;
     gap: 16px;
 }
@@ -76,7 +84,7 @@ a {
 
 .signUpButton {
     color: white;
-    background: #3882F6;
+    background: #9781DD;
     font-weight: bold;
     max-width: 120px;
     border: 0;
@@ -140,6 +148,12 @@ a {
     font-size: 36px;
     font-weight: 700;
     color: #1F2937;
+    min-height: 50px;
+}
+
+.wrap {
+    min-height: 50px;
+    color: #9781DD;
 }
 
 .collection {
@@ -155,7 +169,7 @@ a {
 }
 
 .pic {
-    border: 3px solid #3882F6;
+    border: 3px solid #9781DD;
     width: 150px;
     height: 150px;
     border-radius: 25px;
@@ -208,7 +222,7 @@ a {
 
 .buttonContainer {
     color: #E5E7EB;
-    background: #3882F6;
+    background: #8962de;
     max-width: 2000px;
     border: 0;
     border-radius: 10px;
@@ -237,7 +251,7 @@ a {
 }
 
 .rightButton {
-    background: #3882F6;
+    background: #8962de;
     border: 2px solid #E5E7EB;
     display: flex;
     border-radius: 10px;
