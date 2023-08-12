@@ -7,6 +7,10 @@ I have also added some JS to make the typewriter effect.
 ## Languages
  
 HTML, CSS, JS.
+
+## Preview
+
+You can see the website preview [here](https://www.stressato.me/landingpage).
  
 ## Authors
  
@@ -14,7 +18,7 @@ HTML, CSS, JS.
  
 ## To-do
  
-Add support for 1080x1920 vertical screens and mobile phones.
+Add support for 9:16 ratio vertical screens and mobile phones.
  
 ## Credits
  
