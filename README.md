@@ -1,6 +1,6 @@
 # Landing page
  
-This landing page is an HTML and CSS exercise proposed by [The Odin Project](https://theodinproject.com/), made from scratch without any frameworks.
+This landing page is an HTML and CSS exercise included in [The Odin Project](https://theodinproject.com/), made from scratch without any frameworks.
  
 I have also added some JS to make the typewriter effect.
  
